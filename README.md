@@ -1,5 +1,7 @@
 # extract-jukebox-embeddings
 
+[Link to Colab Notebook](https://colab.research.google.com/drive/1jdR5w-XlJQFog47ZJ36ckEVMW0F5qIpl).
+
 A notebook for extracting embeddings from [OpenAI's Jukebox model](https://openai.com/index/jukebox/), following the approach described in [Castellon et al. (2021)](https://arxiv.org/abs/2107.05677) with some modifications followed in [Spotify's Llark paper](https://arxiv.org/pdf/2310.07160):
 
 - Source: Output of the 36th layer of the Jukebox encoder
