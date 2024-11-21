@@ -10,7 +10,7 @@ A notebook for extracting embeddings from [OpenAI's Jukebox model](https://opena
 - Approach: Mean-pooling within 100ms frames, resulting in:
     - Downsampled frequency: 10Hz
     - Embedding size: 1.2 × 10^6 for a 25s audio clip.
-    - For a 25s audio clip the 2D array shape will be [250, 4800]
+    - For a 25s audio clip the 2D array shape will be [240, 4800]
 - This method retains temporal information while reducing the embedding size
 
 Having a Colab notebook for this gives us an easily reproducible environment and allows us to take advantage of the cheap T4 GPU's Colab offers.
